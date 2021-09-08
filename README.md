@@ -7,5 +7,8 @@
 - Desenvolver código que use stream paralelo;
 - Implementar decomposição e redução com stream;
 
+### Decomposição
+é o processo de pegar uma tarefa, dividi-la em partes menores que podem ser executadas simultaneamente, e em seguida, remontar os resultados.
+
 ### Regras
 - Ao criar um stream paralelo a partir de outro stream, e aplicar um `terminal operation`, isso torna o stream original indisponível para o uso. Caso tente utilizar o stream original, então irá gerar uma java.lang.IllegalStateException: stream has already been operated upon or closed; 
