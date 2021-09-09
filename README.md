@@ -13,7 +13,7 @@
 
 ### Redução
 - Os resultados de redução paralela, podem ser diferentes dos resultados com redução serial stream.
-- Para performar um reuction com collector:
+- Para performar um reduction com collector:
   - O stream deve ser em paralelo;
   - O parâmetro da operação de collect() deve ter um Characteristics.CONCURRENT;
   - O Stream não deverá ser ordenado, ou colector deverá ter características unordered;
