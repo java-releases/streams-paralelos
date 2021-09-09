@@ -13,6 +13,10 @@
 
 ### Redução
 - Os resultados de redução paralela, podem ser diferentes dos resultados com redução serial stream.
+- Para performar um reuction com collector:
+  - O stream deve ser em paralelo;
+  - O parâmetro da operação de collect() deve ter um Characteristics.CONCURRENT;
+  - O Stream não deverá ser ordenado, ou colector deverá ter características unordered;
 
 ## Performance com ordenação
 - Qualquer operação que é baseada na ordem, incluindo: findFirst(), limit(), ou skip(), podem performar mais lentamente em stream paralelo.
