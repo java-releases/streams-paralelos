@@ -18,7 +18,7 @@
   - O parâmetro da operação de collect() deve ter um Characteristics.CONCURRENT;
   - O Stream não deverá ser ordenado, ou colector deverá ter características unordered;
 
-## Performance com ordenação
+### Performance com ordenação
 - Qualquer operação que é baseada na ordem, incluindo: findFirst(), limit(), ou skip(), podem performar mais lentamente em stream paralelo.
 
 ### Regras
