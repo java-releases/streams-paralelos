@@ -14,5 +14,8 @@
 ### Redução
 - Os resultados de redução paralela, podem ser diferentes dos resultados com redução serial stream.
 
+## Performance com ordenação
+- Qualquer operação que é baseada na ordem, incluindo: findFirst(), limit(), ou skip(), podem performar mais lentamente em stream paralelo.
+
 ### Regras
 - Ao criar um stream paralelo a partir de outro stream, e aplicar um `terminal operation`, isso torna o stream original indisponível para o uso. Caso tente utilizar o stream original, então irá gerar uma java.lang.IllegalStateException: stream has already been operated upon or closed; 
