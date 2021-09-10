@@ -23,4 +23,4 @@
 
 ### Regras
 - Ao criar um stream paralelo a partir de outro stream, e aplicar um `terminal operation`, isso torna o stream original indisponível para o uso. Caso tente utilizar o stream original, então irá gerar uma java.lang.IllegalStateException: stream has already been operated upon or closed;
-- Para criar um stream paralelo, podemos chamar o método `parallel()`, a partir de uma instância de Stream<T>, ou chamar o método `parallelStream()` a partir de instância de alguma Collection.
+- Para criar um stream paralelo, podemos chamar o método `parallel()`, a partir de uma instância de Stream<T>, ou chamar o método `parallelStream()` a partir de alguma instância de alguma Collection.
