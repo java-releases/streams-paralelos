@@ -1,6 +1,4 @@
-![](https://github.com/ocpjp-study/streams-paralelos/blob/main/ocpjp.png)
-
-[Preparação para o Exame 1Z0-817](https://education.oracle.com/pt_BR/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+![](https://github.com/ocpjp-study/streams-paralelos/blob/main/paralelo.png)
 
 ### Tópico: Stream Paralelos
 ### Objetivos
