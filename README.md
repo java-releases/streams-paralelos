@@ -1,5 +1,3 @@
-![](https://github.com/ocpjp-study/streams-paralelos/blob/main/paralelo.png)
-
 ### Tópico: Stream Paralelos
 ### Objetivos
 - Desenvolver código que use stream paralelo;
